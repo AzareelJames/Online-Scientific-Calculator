@@ -1,0 +1,208 @@
+body{
+    background-color: #000000;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+    font-size: 235%;
+    transform: translate(-50%, -50%);
+}
+
+div{
+    text-align: center;
+    max-width: 80%;
+    overflow: auto;
+    font-size: 3em;
+    color: white;
+    
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.n{
+    background-color: darkgrey;
+}
+
+.s{
+    background-color: lightblue;
+}
+
+.b{
+    background-color: orange;
+}
+
+
+
+#one{
+    left: 30%;
+    top: 30%;
+}
+
+#two{
+    left: 35%;
+    top: 30%;
+}
+
+#three{
+    left: 40%;
+    top: 30%;
+}
+
+#four{
+    left: 30%;
+    top: 40%;
+}
+
+#five{
+    left: 35%;
+    top: 40%;
+}
+
+#six{
+    left: 40%;
+    top: 40%;
+}
+
+#seven{
+    left: 30%;
+    top: 50%;
+}
+
+#eight{
+    left: 35%;
+    top: 50%;
+}
+
+#nine{
+    left: 40%;
+    top: 50%;
+}
+
+#zero{
+    left: 35%;
+    top: 60%;
+}
+
+
+#plus{
+    left: 45%;
+    top: 30%;
+}
+
+#minus{
+    left: 45%;
+    top: 40%;
+}
+
+#times{
+    left: 45%;
+    top: 50%;
+}
+
+#divide{
+    left: 45%;
+    top: 60%;
+}
+
+#equal{
+    left: 40%;
+    top: 60%;
+}
+
+#clear{
+    left: 30%;
+    top: 60%;
+}
+
+#del{
+    left: 50%;
+    top: 60%;
+}
+
+#PLeft{
+    left: 50%;
+    top: 30%;
+}
+
+#PRight{
+    left: 50%;
+    top: 40%;
+}
+
+#dot{
+    left: 50%;
+    top: 50%;
+}
+
+#mod{
+    left: 55%;
+    top: 30%;
+}
+
+#sqrt{
+    left: 55%;
+    top: 40%;
+}
+
+#pi{
+    left: 53%;
+    top: 50%;
+}
+
+#e{
+    left: 56.5%;
+    top: 50%;
+}
+
+#ANS{
+    left: 56%;
+    top: 60%;
+}
+
+#Ex{
+    left: 60%;
+    top: 30%;
+}
+
+#degrees{
+    left: 60%;
+    top: 40%;
+}
+
+#percentage{
+    left: 60%;
+    top: 60%;
+}
+
+#sin{
+    left: 65%;
+    top: 30%;
+}
+
+#cos{
+    left: 65%;
+    top: 40%;
+}
+
+#tan{
+    left: 65%;
+    top: 50%;
+}
+
+#log{
+    left: 65.3%;
+    top: 60%;
+}
+
+#comma{
+    left: 60%;
+    top: 50%;
+}
+
+#ln{
+    left: 71%;
+    top: 60%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Online Scientific Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <button id="one" class="n">1</button>
+        <button id="two" class="n">2</button>
+        <button id="three" class="n">3</button>
+        <button id="four" class="n">4</button>
+        <button id="five" class="n">5</button>
+        <button id="six" class="n">6</button>
+        <button id="seven" class="n">7</button>
+        <button id="eight" class="n">8</button>
+        <button id="nine" class="n">9</button>
+        <button id="zero" class="n">0</button>
+
+        <button id="plus" class="s">+</button>
+        <button id="minus" class="s">-</button>
+        <button id="times" class="s">*</button>
+        <button id="divide" class="s">/</button>
+        <button id="PLeft" class="s">(</button>
+        <button id="PRight" class="s">)</button>
+        <button id="dot" class="s">.</button>
+        <button id="mod" class="s">mod</button>
+        <button id="sqrt" class="s">sqrt(</button>
+        <button id="pi" class="s">π</button>
+        <button id="e" class="s">e</button>
+        <button id="ANS" class="s">A</button>
+        <button id="Ex" class="s">^</button>
+        <button id="degrees" class="s">°</button>
+        <button id="percentage" class="s">%</button>
+        <button id="sin" class="s">sin(</button>
+        <button id="cos" class="s">cos(</button>
+        <button id="tan" class="s">tan(</button>
+        <button id="log" class="s">log(</button>
+        <button id="comma" class="s">,</button>
+        <button id="ln" class="s">ln(</button>
+
+
+        <button id="equal" onclick="calculate()" class="b">=</button>
+        <button id="clear" onclick="problem.innerText = ``" class="b">C</button>
+        <button id="del" class="b" onclick="
+        if(!ans){
+        problem.innerText = problem.innerText.slice(0, problem.innerText.length - 1);
+        }
+        else{problem.innerText = ``}
+        ">DEL</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
